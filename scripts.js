@@ -10,9 +10,9 @@ const data = {
 
 // Only edit below
 
-const { first = 1 } = data.first || {}
-const { second = 1 } = data.second || {}
-const { third = 1 } = data.third || {}
+const { first = 1 } = data.lists.first || {}
+const { second = 1 } = data.lists.second || {}
+const { third = 1 } = data.lists.third || {}
 
 const result = []
 
